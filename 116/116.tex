@@ -1,0 +1,39 @@
+\documentclass[12pt,landscape,a4paper]{article}
+
+% --- Encoding and Language ---
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{graphicx}
+
+% --- Fonts ---
+\usepackage{fontspec}
+\setmainfont{Libertinus Serif}
+
+% --- Graphics and Drawing ---
+\usepackage{tikz}
+\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
+
+% --- Layout and Structure ---
+\usepackage{multicol}
+\usepackage{wrapfig}
+\usepackage[top=0mm,bottom=1mm,left=0mm,right=1mm]{geometry}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{microtype}
+\usepackage{pdfpages}
+
+% \let\bar\overline
+% \include{content/definitions}
+
+
+\begin{document}
+\small
+\begin{multicols*}{4}
+
+\input{content/vectors}
+
+
+\end{multicols*}
+\end{document}
