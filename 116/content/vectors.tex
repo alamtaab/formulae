@@ -12,12 +12,16 @@ $\vec{A} \cdot \vec{B} = AB\cos\theta$\\
 $\vec{A}\cdot\vec{B} = A_xB_x + A_yB_y + A_zB_z$
 
 \subsection*{Projection of a Vector}
-***\\
+$||\vec{F_{1A}}|| = \vec{F_1} \cdot \hat{u_A}$\\
 $\text{proj}_{\vec{A}}(\vec{B}) = \frac{\vec{B}\cdot\vec{A}}{\vec{A}\cdot\vec{A}}\vec{A}$
 
 \section*{Transverse \& Azimuthal Angles}
-***
-
+$\theta$ - Transverse angle - angle from $xy$ projection to positive x-axis\\
+$\phi$ - Azimuthal angle - angle from vector to z-axis \\
+$A_z = A\cos\phi$\\\\
+$A_{xy} = A\sin\phi$\\
+$A_x = A_{xy}\cos\theta$\\
+$A_y = A_{xy}\sin\theta$\\
 \section*{Cross Product}
 $\vec{A} \times \vec{B} = \begin{vmatrix}
     i & j & k\\
@@ -29,3 +33,31 @@ $\vec{A} \times \vec{B} = \begin{vmatrix}
 \section*{Triple Scalar Product}
 
 $\vec{C} \cdot (\vec{A} \times \vec{B})$
+
+\section{Spring}
+$F = ks$\\
+
+\section*{Chandelier}
+1. draw diagram
+2. write $\vec{r}$ for all cables\\
+3.find direction vector $\hat{u}$ for all $\vec{r}$\\
+4. $\sum\vec{F}$ in x,y,z\\
+5. $\vec{F_i} = F_iu_{ix} \hat{i} + F_iu_{iy} \hat{j}+ F_iu_{iz} \hat{k}$\\
+6. from equilibrium equations determine relationships between forces\\
+7. sub max tension into forces to check which one breaks first\\
+8. sub max tension into force that breaks first to find max weight\\
+
+\section*{Moments}
+$\vec{M_O} = \vec{r_O} \times \vec{F}$\\
+projection along an axis A:  \\$\vec{M_a} = \hat{u_A}\cdot\vec{M_O} =\hat{u_A}\cdot (\vec{r} \times \vec{F})$
+
+\section*{Reduction to a wrench}
+1. Draw diagram\\
+2. Write out $\hat{i}\, \hat{j}\, \hat{k}$ for all $\vec{F}$ and $\vec{M}$\\
+3. $\vec{F_R} = \sum\vec{F}\, | \, \vec{M_{R_O}} = \sum\vec{M_o} + \sum\vec{M_c}$\\
+4. $\vec{M_{||}} = (\vec{M_{R_O}} \cdot \hat{u_{F_R}})\hat{u_{F_R}}$\\
+5. $\vec{M_\perp} = \vec{M_{R_O}} - \vec{M_{||}}$\\
+6. Find $\vec{r_p}$ such that $\vec{r_p} \times \vec{F_R} = \vec{M_\perp}$
+*7. Move $\vec{M_{||}}$ to $\vec{r_p}$\\
+Solution:\\
+"The wrench is $\vec{F_R} = (Fx \hat{i} + Fy \hat{j} + Fz\hat{k})$ acting at $\vec{r_p} = (rx \hat{i} + ry \hat{j} + rz\hat{k})$ with $\vec{M_{||}} = (M_{||}x \hat{i} + M_{||}y\hat{j} + M_{||}\hat{k})$"
