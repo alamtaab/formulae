@@ -34,9 +34,6 @@ $\vec{A} \times \vec{B} = \begin{vmatrix}
 
 $\vec{C} \cdot (\vec{A} \times \vec{B})$
 
-\section{Spring}
-$F = ks$\\
-
 \section*{Chandelier}
 1. draw diagram
 2. write $\vec{r}$ for all cables\\
@@ -61,3 +58,32 @@ projection along an axis A:  \\$\vec{M_a} = \hat{u_A}\cdot\vec{M_O} =\hat{u_A}\c
 *7. Move $\vec{M_{||}}$ to $\vec{r_p}$\\
 Solution:\\
 "The wrench is $\vec{F_R} = (Fx \hat{i} + Fy \hat{j} + Fz\hat{k})$ acting at $\vec{r_p} = (rx \hat{i} + ry \hat{j} + rz\hat{k})$ with $\vec{M_{||}} = (M_{||}x \hat{i} + M_{||}y\hat{j} + M_{||}\hat{k})$"
+
+
+\section*{Rigid Body Equilibrium (2D)}
+$\sum F_x = 0 \qquad \sum F_y = 0 \qquad \sum M_O = 0$
+
+\section*{Rigid Body Equilibrium (3D)}
+$\sum F_x = 0 \qquad \sum F_y = 0 \qquad \sum F_z = 0$\\
+$\sum M_x = 0 \qquad \sum M_y = 0 \qquad \sum M_z = 0$\\
+$\vec{M_O} = \vec{r} \times \vec{F}$\\
+$\vec{F_R} = \sum\vec{F} \qquad \vec{M_{R_O}} = \sum(\vec{r}_i \times \vec{F_i}) + \sum\vec{M_{c_i}}$
+
+\section*{Trusses}
+\subsection*{Method of Joints}
+$\sum F_x=0 \qquad \sum F_y=0$\\[4pt]
+Zero-force rules:\\
+1. Two non-colinear members at unloaded joint $\Rightarrow$ both zero-force\\
+2. Three members, two colinear, joint unloaded $\Rightarrow$ non-colinear member zero-force
+
+\subsection*{Method of Sections}
+Cut $\le 3$ unknowns:\\
+$\sum F_x=0 \qquad \sum F_y=0 \qquad \sum M=0$
+
+\section*{Friction}
+Static: $F_s \le \mu_s N$ \qquad Impending: $F_s = \mu_s N$\\
+Kinetic: $F_k = \mu_k N$\\[6pt]
+Incline: $N = W\cos\theta \qquad W_\parallel = W\sin\theta$\\[6pt]
+Tipping vs sliding:\\
+$\theta_{sliding}: \;\mu_s = \tan\theta$\\
+$\theta_{tipping}: \;\tan\theta = \dfrac{b}{2h}$
