@@ -1,28 +1,28 @@
-\section*{Coordinate Direction Angles}
+\subsubsection*{Coordinate Direction Angles}
 
 Angles between vector and positive $x$,$y$,$z$.\\
 $\alpha$, $\beta$, $\gamma \,\epsilon \, [0\deg, 180\deg]$\\
 $\cos\alpha = \frac{A_x}{A} \,\, \cos\beta = \frac{A_y}{A} \,\, \cos\gamma = \frac{A_z}{A}$\\
 $\vec{A} = A\cos\alpha\, \hat{i} + A\cos\beta \, \hat{j} + A\cos\gamma \, \hat{k}$\\
 $\hat{u}_A = \frac{\vec{A}}{A} = \cos\alpha \, \hat{i} + \cos\beta \, \hat{j} + \cos\gamma \, \hat{k}$\\
-$\cos^2\alpha + \cos^2\beta + \cos^2\gamma = 1$\\
+$\cos^2\alpha + \cos^2\beta + \cos^2\gamma = 1$
 
-\section*{Dot Product}
+\subsubsection*{Dot Product}
 $\vec{A} \cdot \vec{B} = AB\cos\theta$\\
 $\vec{A}\cdot\vec{B} = A_xB_x + A_yB_y + A_zB_z$
 
-\subsection*{Projection of a Vector}
+\subsubsection*{Projection of a Vector}
 $||\vec{F_{1A}}|| = \vec{F_1} \cdot \hat{u_A}$\\
 $\text{proj}_{\vec{A}}(\vec{B}) = \frac{\vec{B}\cdot\vec{A}}{\vec{A}\cdot\vec{A}}\vec{A}$
 
-\section*{Transverse \& Azimuthal Angles}
+\subsubsection*{Transverse \& Azimuthal Angles}
 $\theta$ - Transverse angle - angle from $xy$ projection to positive x-axis\\
 $\phi$ - Azimuthal angle - angle from vector to z-axis \\
 $A_z = A\cos\phi$\\\\
 $A_{xy} = A\sin\phi$\\
 $A_x = A_{xy}\cos\theta$\\
 $A_y = A_{xy}\sin\theta$\\
-\section*{Cross Product}
+\subsubsection*{Cross Product}
 $\vec{A} \times \vec{B} = \begin{vmatrix}
     i & j & k\\
     A_x & A_y & A_z \\
@@ -30,11 +30,11 @@ $\vec{A} \times \vec{B} = \begin{vmatrix}
 \end{vmatrix}$
 
 
-\section*{Triple Scalar Product}
+\subsubsection*{Triple Scalar Product}
 
 $\vec{C} \cdot (\vec{A} \times \vec{B})$
 
-\section*{Chandelier}
+\subsubsection*{Chandelier}
 1. draw diagram
 2. write $\vec{r}$ for all cables\\
 3.find direction vector $\hat{u}$ for all $\vec{r}$\\
@@ -42,13 +42,13 @@ $\vec{C} \cdot (\vec{A} \times \vec{B})$
 5. $\vec{F_i} = F_iu_{ix} \hat{i} + F_iu_{iy} \hat{j}+ F_iu_{iz} \hat{k}$\\
 6. from equilibrium equations determine relationships between forces\\
 7. sub max tension into forces to check which one breaks first\\
-8. sub max tension into force that breaks first to find max weight\\
+8. sub max tension into force that breaks first to find max weight
 
-\section*{Moments}
+\subsubsection*{Moments}
 $\vec{M_O} = \vec{r_O} \times \vec{F}$\\
 projection along an axis A:  \\$\vec{M_a} = \hat{u_A}\cdot\vec{M_O} =\hat{u_A}\cdot (\vec{r} \times \vec{F})$
 
-\section*{Reduction to a wrench}
+\subsubsection*{Reduction to a wrench}
 1. Draw diagram\\
 2. Write out $\hat{i}\, \hat{j}\, \hat{k}$ for all $\vec{F}$ and $\vec{M}$\\
 3. $\vec{F_R} = \sum\vec{F}\, | \, \vec{M_{R_O}} = \sum\vec{M_o} + \sum\vec{M_c}$\\
@@ -60,27 +60,27 @@ Solution:\\
 "The wrench is $\vec{F_R} = (Fx \hat{i} + Fy \hat{j} + Fz\hat{k})$ acting at $\vec{r_p} = (rx \hat{i} + ry \hat{j} + rz\hat{k})$ with $\vec{M_{||}} = (M_{||}x \hat{i} + M_{||}y\hat{j} + M_{||}\hat{k})$"
 
 
-\section*{Rigid Body Equilibrium (2D)}
+\subsubsection*{Rigid Body Equilibrium (2D)}
 $\sum F_x = 0 \qquad \sum F_y = 0 \qquad \sum M_O = 0$
 
-\section*{Rigid Body Equilibrium (3D)}
+\subsubsection*{Rigid Body Equilibrium (3D)}
 $\sum F_x = 0 \qquad \sum F_y = 0 \qquad \sum F_z = 0$\\
 $\sum M_x = 0 \qquad \sum M_y = 0 \qquad \sum M_z = 0$\\
 $\vec{M_O} = \vec{r} \times \vec{F}$\\
 $\vec{F_R} = \sum\vec{F} \qquad \vec{M_{R_O}} = \sum(\vec{r}_i \times \vec{F_i}) + \sum\vec{M_{c_i}}$
 
-\section*{Trusses}
-\subsection*{Method of Joints}
+\subsubsection*{Trusses}
+\subsubsection*{Method of Joints}
 $\sum F_x=0 \qquad \sum F_y=0$\\[4pt]
 Zero-force rules:\\
 1. Two non-colinear members at unloaded joint $\Rightarrow$ both zero-force\\
 2. Three members, two colinear, joint unloaded $\Rightarrow$ non-colinear member zero-force
 
-\subsection*{Method of Sections}
+\subsubsection*{Method of Sections}
 Cut $\le 3$ unknowns:\\
 $\sum F_x=0 \qquad \sum F_y=0 \qquad \sum M=0$
 
-\section*{Friction}
+\subsubsection*{Friction}
 Static: $F_s \le \mu_s N$ \qquad Impending: $F_s = \mu_s N$\\
 Kinetic: $F_k = \mu_k N$\\[6pt]
 Incline: $N = W\cos\theta \qquad W_\parallel = W\sin\theta$\\[6pt]
